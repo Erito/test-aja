@@ -65,6 +65,16 @@
             </div>
         </div>
     </div>
+
+    <script>
+        document.querySelector('.container-box input').addEventListener('input', function (e) {
+            const search = e.target.value.toLowerCase();
+            document.querySelectorAll('.category').forEach(function (cat) {
+                const text = cat.querySelector('span').textContent.toLowerCase();
+                cat.style.display = text.includes(search) ? '' : 'none';
+            });
+        });
+    </script>
 </body>
 
 </html>
