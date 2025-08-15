@@ -5,6 +5,11 @@ body{
     padding: 0;
 }
 
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .container{
     background: linear-gradient(90deg, #072510ff 0%, #0a4d1aff 50%, #071b0dff 100%);
     color: #fff;
@@ -65,6 +70,7 @@ body{
     justify-content: center;
     gap: 25px;
     margin: 30px 0;
+    max-width: 9000px;
 }
 
 .category{
